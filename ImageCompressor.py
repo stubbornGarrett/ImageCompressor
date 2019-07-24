@@ -48,7 +48,7 @@ class ImageCompressor:
                 self.updateProgressbar(1)
             except:
                 self.progressGoal -= 1
-                self.failedCompression += 0
+                self.failedCompression += 1
             
         self.quitProgram(0)
 
